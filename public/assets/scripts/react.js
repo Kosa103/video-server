@@ -109,8 +109,6 @@ function Series({ selectedSeries }) {
 
 
 function App() {
-    const [selectedSeries, setSelectedSeries] = React.useState(series.friends);
-
     const series = {
         friends: {
             name: "FRIENDS",
@@ -135,6 +133,8 @@ function App() {
             }
         }
     } 
+    
+    const [selectedSeries, setSelectedSeries] = React.useState(series.friends);
 
     function renderSeriesButtons() {
         const series = Object.keys(series).map((seriesName, index) => {
