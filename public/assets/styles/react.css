@@ -1,0 +1,95 @@
+body {
+    background-image: url("../images/friends-mod1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% auto;
+
+    text-align: center;
+    font-family: Agency FB, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 77);
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(0, 0, 77);
+    font-size: 2em;
+    background-color: rgba(124, 124, 252, 0.75);
+}
+
+h3 {
+    color: rgb(0, 0, 77);
+    font-size: 1.6em;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    float: none;
+}
+
+hr {
+    color: rgb(31, 31, 253);
+}
+
+.main-div {
+    border: 2px solid rgb(31, 31, 253);
+    border-radius: 15px;
+    background-color: rgba(124, 124, 252, 0.55);
+    width: 85%;
+    margin: auto;
+    margin-top: 4em;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    overflow: auto;
+}
+
+.button,
+.button:focus {
+    float: left;
+    font-family: Agency FB, sans-serif;
+    font-size: 1.4em;
+    border: 1px solid rgb(0, 0, 77);
+    background-color: rgb(124, 124, 252);
+    color: rgb(0, 0, 77);
+    border-radius: 3.5px;
+    padding: 1em, 2em;
+    width: 1.75em;
+    height: 1.75em;
+    margin: 0.1em;
+}
+
+.button:hover,
+.button:active {
+    color: rgb(124, 124, 252);
+    background-color: rgb(0, 0, 77);
+    cursor: pointer;
+}
+
+.button-season,
+.button-season:focus {
+    background-color: rgb(71, 71, 252);
+}
+
+.button:hover,
+.button:active {
+    color:  rgb(71, 71, 252);
+    background-color: rgb(0, 0, 77);
+    cursor: pointer;
+}
+
+.buttons-div {
+    width: 95%;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+}
+
+.video-div {
+    padding-top: 4em;
+}
+
+.video {
+    padding-top: 3em;
+}
