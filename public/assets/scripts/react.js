@@ -144,6 +144,8 @@ function App() {
                 </div>
             );
         });
+
+        return series;
     }
 
     return (
