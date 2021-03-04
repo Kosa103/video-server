@@ -137,7 +137,7 @@ function App() {
     const [selectedSeries, setSelectedSeries] = React.useState(series.friends);
 
     function renderSeriesButtons() {
-        const series = Object.keys(series).map((seriesName, index) => {
+        const seriesMap = Object.keys(series).map((seriesName, index) => {
             return (
                 <div key={`series-key-${index}`}>
                     <button onClick={() => setSelectedSeries(series[seriesName])} className="button button-episode">{series[seriesName].name}</button>
@@ -145,7 +145,7 @@ function App() {
             );
         });
 
-        return series;
+        return seriesMap;
     }
 
     return (
