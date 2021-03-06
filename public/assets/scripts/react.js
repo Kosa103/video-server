@@ -3,8 +3,81 @@
 // ---------------------------------------------------------------------------------------------------------------------
 
 
-
 function App() {
+    const [isLoggedIn, setIsLoggedIn] = React.useState(false);
+
+    return (
+        <>
+            {
+                isLoggedIn ? 
+                <AppAuth /> : 
+                <Login loginSuccess={() => setIsLoggedIn(true)}/>
+            }       
+        </>
+    );
+}
+
+
+// ---------------------------------------------------------------------------------------------------------------------
+//                                             LOGIN COMPONENT
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+function Login({ loginSuccess }) {
+    const loginName = React.useRef(null);
+    const loginPassword = React.useRef(null);
+
+    async function attemptLogin() {
+        const url = "http://borzalom.ddns.net:801/api/login";
+        const body = {
+            name: loginName.current.value,
+            password: loginPassword.current.value
+        };
+        const options = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        }
+
+        let responseStatus = 0;
+
+        await fetch(url, options)
+        .then(res => {
+            responseStatus = res.status;
+            return res.json();
+        })
+        .catch(err => console.log(err));
+
+        if (responseStatus >= 200 && responseStatus < 300) {
+            console.log("Login successful");
+            loginSuccess();
+        } else {
+            console.log("Login failed");
+        }
+    }
+
+    console.log("rendering...");
+
+    return (
+        <div className="login-container">
+            <h3 className="input-label">Name:</h3>
+            <input type="text" className="input-field" ref={loginName}></input>
+            <h3 className="input-label">Password:</h3>
+            <input type="password" className="input-field" ref={loginPassword}></input>
+            <button className="button-login" onClick={() => attemptLogin()}>Login</button>
+        </div>
+    );
+}
+
+
+// ---------------------------------------------------------------------------------------------------------------------
+//                                             APP AUTH COMPONENT
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+function AppAuth() {
     const series = {
         friends: {
             name: "FRIENDS",

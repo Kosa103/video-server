@@ -96,3 +96,74 @@ hr {
 .video {
     padding-top: 3em;
 }
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    
+    border: 2px solid rgb(31, 31, 253);
+    border-radius: 15px;
+    background-color: rgba(124, 124, 252, 0.55);
+    max-width: 30%;
+    margin: auto;
+    margin-top: 4em;
+    padding: 1em 1em 3em;
+    overflow: auto;
+}
+
+.input-label {
+    text-align: center;
+}
+
+.input-field {
+    width: 80%;
+    margin: 0 auto 1em;
+    font-family: Agency FB, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-login,
+.button-login:focus {
+    float: left;
+    font-family: Agency FB, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 77);
+    background-color: rgb(124, 124, 252);
+    color: rgb(0, 0, 77);
+    border-radius: 3.5px;
+    margin: auto;
+    padding: 1em, 2em;
+    height: 1.75em;
+}
+
+.button-login:hover,
+.button-login:active {
+    color: rgb(124, 124, 252);
+    background-color: rgb(0, 0, 77);
+    cursor: pointer;
+}
+
+.login-button {
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .login-container {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .login-container {
+        max-width: 90%;
+    }
+}
