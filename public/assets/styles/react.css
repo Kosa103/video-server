@@ -1,6 +1,5 @@
 body {
     background-image: url("../images/friends-mod1.jpg");
-    background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% auto;
 
@@ -55,7 +54,7 @@ hr {
     color: rgb(0, 0, 77);
     border-radius: 3.5px;
     padding: 1em, 2em;
-    width: 1.75em;
+    width: auto;
     height: 1.75em;
     margin: 0.1em;
 }
@@ -72,8 +71,8 @@ hr {
     background-color: rgb(71, 71, 252);
 }
 
-.button:hover,
-.button:active {
+.button-season:hover,
+.button-season:active {
     color:  rgb(71, 71, 252);
     background-color: rgb(0, 0, 77);
     cursor: pointer;
@@ -84,6 +83,10 @@ hr {
     margin: auto;
     margin-top: 1.5em;
     margin-bottom: 4em;
+}
+
+.episode-title {
+    text-align: center;
 }
 
 .video-div {
