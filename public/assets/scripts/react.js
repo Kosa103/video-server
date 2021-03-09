@@ -440,6 +440,140 @@ function AppAuth() {
                     },
                 }
             }
+        },
+        "melissa-and-joey": {
+            name: "MELISSA & JOEY",
+            length: 4,
+            seasons: {
+                1: {
+                    number: "1",
+                    length: 30,
+                    episodes: {
+                        1: { number: "1", title: "Bevezető rész" },
+                        2: { number: "2", title: "A továbblépés" },
+                        3: { number: "3", title: "Dadusszerelem" },
+                        4: { number: "4", title: "Rosszfiúk" },
+                        5: { number: "5", title: "A tökéletes vihar" },
+                        6: { number: "6", title: "Kémkedés" },
+                        7: { number: "7", title: "Szemtől szemben" },
+                        8: { number: "8", title: "Toledói táncest" },
+                        9: { number: "9", title: "A szöuli" },
+                        10: { number: "10", title: "Felsőbb körökben" },
+                        11: { number: "11", title: "Rettenet a padláson" },
+                        12: { number: "12", title: "Joe tudja" },
+                        13: { number: "13", title: "Ellenség extrákkal" },
+                        14: { number: "14", title: "Edzésben" },
+                        15: { number: "15", title: "Kulturális rés" },
+                        16: { number: "16", title: "Joe és az osztálytalálkozó" },
+                        17: { number: "17", title: "Topmodell születik" },
+                        18: { number: "18", title: "A leszbikus esküvő" },
+                        19: { number: "19", title: "A kikiáltási tárgy" },
+                        20: { number: "20", title: "Az igazira várva" },
+                        21: { number: "21", title: "Ifjú szerelem" },
+                        22: { number: "22", title: "A buli és az évforduló" },
+                        23: { number: "23", title: "Hol zsarnokság van..." },
+                        24: { number: "24", title: "Burke-ök harca" },
+                        25: { number: "25", title: "A másik Longo" },
+                        26: { number: "26", title: "Mentorok" },
+                        27: { number: "27", title: "Ütős Longo" },
+                        28: { number: "28", title: "Játék határok nélkül" },
+                        29: { number: "29", title: "Buli hajnalig" },
+                        30: { number: "30", title: "Megállapodás" },
+                    },
+                },
+                2: {
+                    number: "2",
+                    length: 15,
+                    episodes: {
+                        1: { number: "1", title: "Majd én megmutatom!" },
+                        2: { number: "2", title: "Konyhacirkusz" },
+                        3: { number: "3", title: "Az első alkalom" },
+                        4: { number: "4", title: "Csak az én dolgom" },
+                        5: { number: "5", title: "A K.O." },
+                        6: { number: "6", title: "Szakítani tudni kell" },
+                        7: { number: "7", title: "Vegyes páros" },
+                        8: { number: "8", title: "A donor" },
+                        9: { number: "9", title: "Ízek, imák, randik" },
+                        10: { number: "10", title: "Csinos nagy hazugságok" },
+                        11: { number: "11", title: "Titkok és titkolózók" },
+                        12: { number: "12", title: "Minden gond anyja" },
+                        13: { number: "13", title: "Miért vagy te Lennox?" },
+                        14: { number: "14", title: "Oroszországból szeretettel" },
+                        15: { number: "15", title: "Mel megházasítja Joe-t" },
+                    },
+                },
+                3: {
+                    number: "3",
+                    length: 37,
+                    episodes: {
+                        1: { number: "1", title: "Nekem jó!" },
+                        2: { number: "2", title: "Mérgező szülők" },
+                        3: { number: "3", title: "Bennfentes meló" },
+                        4: { number: "4", title: "Nem bírok várni" },
+                        5: { number: "5", title: "Ó, testvér!" },
+                        6: { number: "6", title: "Az igazság fáj" },
+                        7: { number: "7", title: "Egy nyissz és más semmi" },
+                        8: { number: "8", title: "Törlés a barátok közül" },
+                        9: { number: "9", title: "Valami történt" },
+                        10: { number: "10", title: "Családban nem marad" },
+                        11: { number: "11", title: "Rohan az idő" },
+                        12: { number: "12", title: "Rossz hatás" },
+                        13: { number: "13", title: "Tanulópénz" },
+                        14: { number: "14", title: "Kiskarácsony-újkarácsony" },
+                        15: { number: "15", title: "A Jersey-sztori - 1. rész" },
+                        16: { number: "16", title: "A Jersey-stroti - 2. rész" },
+                        17: { number: "17", title: "A lánykérés" },
+                        18: { number: "18", title: "Függetlenség" },
+                        19: { number: "19", title: "Újragondolva" },
+                        20: { number: "20", title: "Ki itt a főnök?" },
+                        21: { number: "21", title: "A kísérő" },
+                        22: { number: "22", title: "A kutya" },
+                        23: { number: "23", title: "Párterápia" },
+                        24: { number: "24", title: "Az igazat megvallva" },
+                        25: { number: "25", title: "Az én házam, az én szabályaim" },
+                        26: { number: "26", title: "A felügyelők" },
+                        27: { number: "27", title: "Nemes gesztus" },
+                        28: { number: "28", title: "Sporthorgászok" },
+                        29: { number: "29", title: "Kampányra született" },
+                        30: { number: "30", title: "A fotel" },
+                        31: { number: "31", title: "Ilyesmi megesik" },
+                        32: { number: "32", title: "Jó időzítés" },
+                        33: { number: "33", title: "Hívatlan vendég" },
+                        34: { number: "34", title: "A harag is a múltba simul" },
+                        35: { number: "35", title: "Csak te kellesz" },
+                        36: { number: "36", title: "Távol az igazságtól" },
+                        37: { number: "37", title: "Végre" },
+                    },
+                },
+                4: {
+                    number: "4",
+                    length: 2,
+                    episodes: {
+                        1: { number: "1", title: "Nászutasok" },
+                        2: { number: "2", title: "Másnap" },
+                        3: { number: "3", title: "Vágjunk bele!" },
+                        4: { number: "4", title: "Hiba a kapcsolatban" },
+                        5: { number: "5", title: "Nincs benne köszönet" },
+                        6: { number: "6", title: "Boszorkányok nincsenek" },
+                        7: { number: "7", title: "Melanie és Josiah karácsonya" },
+                        8: { number: "8", title: "Zene füleimnek" },
+                        9: { number: "9", title: "A hálózat csapdájában" },
+                        10: { number: "10", title: "A példakép" },
+                        11: { number: "11", title: "Elveszett lány" },
+                        12: { number: "12", title: "Babaprojekt" },
+                        13: { number: "13", title: "Hív a kötelesség" },
+                        14: { number: "14", title: "Az ördögbe is!" },
+                        15: { number: "15", title: "A könyvklub" },
+                        16: { number: "16", title: "Korai műszak" },
+                        17: { number: "17", title: "Apád-anyád idejöjjön!" },
+                        18: { number: "18", title: "Jégvarázs" },
+                        19: { number: "19", title: "A gyűrű" },
+                        20: { number: "20", title: "Kvíz show" },
+                        21: { number: "21", title: "Okos enged..." },
+                        22: { number: "22", title: "Dupla boldogság" },
+                    },
+                },
+            }
         }
     } 
     
@@ -462,9 +596,10 @@ function AppAuth() {
             <h1>VIDEO SERVER</h1>
             <div className="buttons-div">
                 <h3 className="selector-title">Sorozatok</h3>
-                {renderSeriesButtons()}
+                <div className="buttons-cointainer">
+                    {renderSeriesButtons()}
+                </div>
             </div>
-            <br />
             <Series selectedSeries={selectedSeries}/>
         </div>
     );
@@ -524,17 +659,17 @@ function Series({ selectedSeries }) {
             <hr />
             <div className="buttons-div">
                 <h3 className="selector-title">Évadok</h3>
-                {renderSeasonButtons()}
+                <div className="buttons-cointainer">
+                    {renderSeasonButtons()}
+                </div>
             </div>
-            <br />
             <div className="buttons-div">
                 <h3 className="selector-title">Epizódok</h3>
-                {renderEpisodeButtons()}
+                <div className="buttons-cointainer">
+                    {renderEpisodeButtons()}
+                </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <h2>{selectedSeries.name} - Évad: {selectedSeason} Epizód: {selectedEpisode}</h2>
+            <h2>{selectedSeries.name} - Évad: {selectedSeason} Epizód: {selectedSeries.seasons[selectedSeason].episodes[selectedEpisode].number}</h2>
             <h3 className="episode-title">{selectedSeries.seasons[selectedSeason].episodes[selectedEpisode].title}</h3>
             <div className="video-div">
                 <Video seriesName={selectedSeries.name.toLowerCase()} season={selectedSeason} episode={selectedEpisode} />

@@ -89,6 +89,11 @@ hr {
     text-align: center;
 }
 
+.buttons-cointainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .video-div {
     padding-top: 4em;
 }
