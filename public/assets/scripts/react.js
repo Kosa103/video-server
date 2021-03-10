@@ -81,6 +81,7 @@ function AppAuth() {
     const series = {
         friends: {
             name: "FRIENDS",
+            title: "Jóbarátok",
             length: 10,
             seasons: {
                 1: {
@@ -381,6 +382,7 @@ function AppAuth() {
         },
         joey: {
             name: "JOEY",
+            title: "Joey",
             length: 2,
             seasons: {
                 1: {
@@ -443,6 +445,7 @@ function AppAuth() {
         },
         "melissa-and-joey": {
             name: "MELISSANJOEY",
+            title: "Melissa és Joey",
             length: 4,
             seasons: {
                 1: {
@@ -583,7 +586,7 @@ function AppAuth() {
         const seriesMap = Object.keys(series).map((seriesName, index) => {
             return (
                 <div key={`series-key-${index}`}>
-                    <button onClick={() => setSelectedSeries(series[seriesName])} className="button button-season">{series[seriesName].name}</button>
+                    <button onClick={() => setSelectedSeries(series[seriesName])} className="button button-season">{series[seriesName].title}</button>
                 </div>
             );
         });
@@ -669,7 +672,7 @@ function Series({ selectedSeries }) {
                     {renderEpisodeButtons()}
                 </div>
             </div>
-            <h2>{selectedSeries.name} - Évad: {selectedSeason} Epizód: {selectedSeries.seasons[selectedSeason].episodes[selectedEpisode].number}</h2>
+            <h2>{selectedSeries.title} - Évad: {selectedSeason} Epizód: {selectedSeries.seasons[selectedSeason].episodes[selectedEpisode].number}</h2>
             <h3 className="episode-title">{selectedSeries.seasons[selectedSeason].episodes[selectedEpisode].title}</h3>
             <div className="video-div">
                 <Video seriesName={selectedSeries.name.toLowerCase()} season={selectedSeason} episode={selectedEpisode} />
@@ -692,7 +695,7 @@ function Video(props) {
     const videoSource = `./mediaLink/movies/${seriesName}/s${season}/${capitalSeriesName}${season}x${episode}.mp4`;
     const width = window.innerWidth * 0.8;
     const height = width * 0.57;
-    
+
 
     function convertToTwoDigitsString(number) {
         if (number < 10) {
