@@ -442,7 +442,7 @@ function AppAuth() {
             }
         },
         "melissa-and-joey": {
-            name: "MELISSA & JOEY",
+            name: "MELISSANJOEY",
             length: 4,
             seasons: {
                 1: {
@@ -693,8 +693,6 @@ function Video(props) {
     const width = window.innerWidth * 0.8;
     const height = width * 0.57;
     
-    // ./mediaLink/movies/friends/Friends${season}x${episode}.mp4
-    // ./assets/videos/Friends${season}x${episode}.mp4
 
     function convertToTwoDigitsString(number) {
         if (number < 10) {
