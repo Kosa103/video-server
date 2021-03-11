@@ -952,7 +952,7 @@ function Video(props) {
 
     return (
         <div>
-            <video width="624" height="352" src={videoSource} type="video/mp4" width={width} height={height} controls>
+            <video src={videoSource} type="video/mp4" width={width} height={height} controls>
             </video>
         </div>
     );
