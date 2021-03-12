@@ -84,7 +84,7 @@ function Login({ loginSuccess }) {
 function AppAuth() {
     const series = {
         "desperate-housewives": {
-            name: "desperatehouseviwes",
+            name: "desperatehousewives",
             title: "Született Feleségek",
             length: 8,
             seasons: {
