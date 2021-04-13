@@ -816,26 +816,26 @@ function AppAuth() {
                     },
                 },
             },
-            "four-weddings-and-a-funeral": {
-                name: "FOURWEDDINGSAFUNERAL",
-                title: "Négy esküvő és egy temetés",
-                length: 1,
-                seasons: {
-                    1: {
-                        number: "1",
-                        length: 10,
-                        episodes: {
-                            1: { number: "1", title: "Az első nem" },
-                            2: { number: "2", title: "Kalandos randi" },
-                            3: { number: "3", title: "Saját lábon" },
-                            4: { number: "4", title: "A győztes mindent visz" },
-                            5: { number: "5", title: "Valóságshow" },
-                            6: { number: "6", title: "Tévedések vígjátéka" },
-                            7: { number: "7", title: "A muzsika hangja" },
-                            8: { number: "8", title: "Játék határok nélkül" },
-                            9: { number: "9", title: "A titok" },
-                            10: { number: "10", title: "Szerelem New Jersey-ben" }
-                        }
+        },
+        "four-weddings-and-a-funeral": {
+            name: "FOURWEDDINGSAFUNERAL",
+            title: "Négy esküvő és egy temetés",
+            length: 1,
+            seasons: {
+                1: {
+                    number: "1",
+                    length: 10,
+                    episodes: {
+                        1: { number: "1", title: "Az első nem" },
+                        2: { number: "2", title: "Kalandos randi" },
+                        3: { number: "3", title: "Saját lábon" },
+                        4: { number: "4", title: "A győztes mindent visz" },
+                        5: { number: "5", title: "Valóságshow" },
+                        6: { number: "6", title: "Tévedések vígjátéka" },
+                        7: { number: "7", title: "A muzsika hangja" },
+                        8: { number: "8", title: "Játék határok nélkül" },
+                        9: { number: "9", title: "A titok" },
+                        10: { number: "10", title: "Szerelem New Jersey-ben" }
                     }
                 }
             }
